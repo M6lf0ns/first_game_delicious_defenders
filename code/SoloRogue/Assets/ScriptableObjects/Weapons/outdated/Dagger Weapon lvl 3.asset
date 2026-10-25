@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c5e7f07b1c2127d499d1fec45423311c, type: 3}
+  m_Name: Dagger Weapon lvl 3
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 6953103761101515367, guid: 11a02ede12381b5488373228a803c434, type: 3}
+  damage: 20
+  speed: 20
+  cooldownDur: 1
+  pierce: 1
+  level: 2
+  nextLevelPrefab: {fileID: 0}
+  name: Dagger Level 2
+  description: Increase throw speed by 5
+  icon: {fileID: -1680492311, guid: 8336c25db2f06314cb2be260cde6da49, type: 3}

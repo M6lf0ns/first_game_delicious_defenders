@@ -1,0 +1,188 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4d0cce344eee774290866bb7bb6f163, type: 3}
+  m_Name: Sprinkle Shooter
+  m_EditorClassIdentifier: 
+  icon: {fileID: 769834424, guid: 12ec3dd9dbbc0cd438e1520eb1802e12, type: 3}
+  maxLevel: 4
+  behavior: ProjectileWeapon
+  baseStats:
+    name: Sprinkle Shooter
+    description: Shoots sprinkles in the direction the Player is facing
+    projectilePrefab: {fileID: -3322674984729303808, guid: 3f5743a55d53ba14faae52433734c771, type: 3}
+    hitEffect: {fileID: 0}
+    spawnVariance:
+      serializedVersion: 2
+      x: 0.2
+      y: 0.2
+      width: 0
+      height: 0
+    lifespan: 3
+    damage: 7
+    damageVariance: 1
+    area: 1
+    speed: 10
+    cooldown: 1
+    projectileInterval: 0.1
+    knockback: 0.5
+    number: 1
+    pierce: 1
+    maxInstances: 60
+  linearGrowth:
+  - name: Level 2
+    description: Fires one more projectile
+    projectilePrefab: {fileID: -3322674984729303808, guid: 3f5743a55d53ba14faae52433734c771, type: 3}
+    hitEffect: {fileID: 0}
+    spawnVariance:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    lifespan: 0
+    damage: 0
+    damageVariance: 0
+    area: 0
+    speed: 0
+    cooldown: 0
+    projectileInterval: 0
+    knockback: 0
+    number: 1
+    pierce: 0
+    maxInstances: 0
+  - name: Level 3
+    description: Damage up by 2
+    projectilePrefab: {fileID: -3322674984729303808, guid: 3f5743a55d53ba14faae52433734c771, type: 3}
+    hitEffect: {fileID: 0}
+    spawnVariance:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    lifespan: 0
+    damage: 2
+    damageVariance: 0
+    area: 0
+    speed: 0
+    cooldown: 0
+    projectileInterval: 0
+    knockback: 0
+    number: 0
+    pierce: 0
+    maxInstances: 0
+  - name: Level 4
+    description: Knockback up by 0.1
+    projectilePrefab: {fileID: -3322674984729303808, guid: 3f5743a55d53ba14faae52433734c771, type: 3}
+    hitEffect: {fileID: 0}
+    spawnVariance:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    lifespan: 0
+    damage: 0
+    damageVariance: 0
+    area: 0
+    speed: 0
+    cooldown: 0
+    projectileInterval: 0
+    knockback: 0.1
+    number: 0
+    pierce: 0
+    maxInstances: 0
+  - name: Level 5
+    description: Fires one more projectile
+    projectilePrefab: {fileID: -3322674984729303808, guid: 3f5743a55d53ba14faae52433734c771, type: 3}
+    hitEffect: {fileID: 0}
+    spawnVariance:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    lifespan: 0
+    damage: 2
+    damageVariance: 0
+    area: 0
+    speed: 0
+    cooldown: 0
+    projectileInterval: 0
+    knockback: 0
+    number: 1
+    pierce: 0
+    maxInstances: 0
+  - name: Level 6
+    description: Damage up by 2
+    projectilePrefab: {fileID: -3322674984729303808, guid: 3f5743a55d53ba14faae52433734c771, type: 3}
+    hitEffect: {fileID: 0}
+    spawnVariance:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    lifespan: 0
+    damage: 2
+    damageVariance: 0
+    area: 0
+    speed: 0
+    cooldown: 0
+    projectileInterval: 0
+    knockback: 0
+    number: 0
+    pierce: 0
+    maxInstances: 0
+  - name: Level 7
+    description: Speed up by 2
+    projectilePrefab: {fileID: -3322674984729303808, guid: 3f5743a55d53ba14faae52433734c771, type: 3}
+    hitEffect: {fileID: 0}
+    spawnVariance:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    lifespan: 0
+    damage: 0
+    damageVariance: 0
+    area: 0
+    speed: 2
+    cooldown: 0
+    projectileInterval: 0
+    knockback: 0
+    number: 0
+    pierce: 0
+    maxInstances: 0
+  - name: Level 8
+    description: Fires one more projectile
+    projectilePrefab: {fileID: -3322674984729303808, guid: 3f5743a55d53ba14faae52433734c771, type: 3}
+    hitEffect: {fileID: 0}
+    spawnVariance:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    lifespan: 0
+    damage: 0
+    damageVariance: 0
+    area: 0
+    speed: 0
+    cooldown: 0
+    projectileInterval: 0
+    knockback: 0
+    number: 1
+    pierce: 0
+    maxInstances: 0
+  randomGrowth: []
